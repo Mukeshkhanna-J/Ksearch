@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    /* background-image: url("https://transparenttextures.com/patterns/diagmonds-light.png"); */
+    background-image: url(images/diagmonds-light.png);
+
+}
+.text-box h1{
+    font-family: "Poppins", sans-serif;
+    color: #32CD32;
+    font-size: 5rem;
+}
+.text-box p{
+    font-family: "Raleway", sans-serif;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #32CD32;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:92vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-wrapper{
+    height:60%;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image-wrapper img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.gallary{
+    width:90%;
+    height:auto;
+    display:flex;
+    justify-content: space-around;
+}
+.gallary-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    width:32.5%;
+}
+.gallary-img-wrapper img{
+    height: 100%;
+    width:100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    padding: 0.5rem;
+    transition: transform 0.5s ease;
+}
+.gallary-img-wrapper img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+    .image-wrapper{
+        height: auto;
+        width:70%;
+    }
+    .gallary{
+        flex-direction: column;
+    }
+    .gallary-img-wrapper{
+        width:100%;
+    }
+}
+@media(max-width:480px){
+    .text-box h1{
+        font-size: 4rem;
+    }
+}
+
+/* tools */
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .search__input {
+    font-family: "Raleway", sans-serif;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 30px;
+    width: 18em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+  }
+  
+  
+  .search__button {
+    border: none;
+    margin-top: .1em;
+    border-radius: 3.5rem;
+    padding:1rem;
+    background-color: #32CD32;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.5em;
+    width: 1.8em;
+    fill: #ffffff;
+  }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.7;
+}
+footer{
+    height: 4rem;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
