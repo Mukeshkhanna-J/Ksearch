@@ -8,7 +8,7 @@ env.config();
 const port = 3000;
 app.use(express.static("public"));
 const api_key=process.env.API_KEY;
-app.use(bodyParser.urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({extended:true}));
 
 
 app.get("/",(req,res)=>{
