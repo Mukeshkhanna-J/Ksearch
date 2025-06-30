@@ -7,7 +7,8 @@ body{
 
 }
 .text-box h1{
-    font-family: "Engagement", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
     color: #32CD32;
     font-size: 5rem;
 }
@@ -119,6 +120,7 @@ section{
     padding-right: 1.5rem;
     border-radius: 30px;
     width: 18em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
     transition: all ease-in-out .5s;
     margin-right: -2rem;
   }
@@ -135,6 +137,7 @@ section{
     border-radius: 3.5rem;
     padding:1rem;
     background-color: #32CD32;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
   }
   
   .search__button:hover {
